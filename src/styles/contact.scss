@@ -1,15 +1,14 @@
-@import "colors";
 
 .contact {
     width: 100%;
     height: 150vh;
-    background-color: $second;
+    background-color: #090c31;
     display: flex;
     justify-content: center;
     align-items: center;
 
     >main {
-        background-color: $first;
+        background-color: white;
         height: 40rem;
         width: 70%;
         padding: 3rem;
@@ -31,7 +30,7 @@
                 margin: 0.5rem;
 
                 >label {
-                    font: 400 1.2rem $text1;
+                    font: 400 1.2rem Roboto;
                     width: 20%;
                     margin: 0 1rem;
                 }
@@ -51,10 +50,10 @@
                 padding: 0.7rem;
                 border: none;
                 border-radius: 5px;
-                background-color: $third;
-                color: $first;
+                background-color: #343cad;
+                color: white;
                 width: 200px;
-                font: 500 1rem $text1;
+                font: 500 1rem Roboto;
 
                 &:hover {
                     opacity: 0.5;
